@@ -1,0 +1,13 @@
+# Données GTFS (publiques, téléchargeables, trop lourdes pour GitHub)
+*.txt
+!requirements.txt
+# Secrets et fichiers locaux
+.env
+*.bak
+# Fichiers générés / outils
+__pycache__/
+*.pyc
+*.log
+.flutter-user-data/
+.dart_tool/
+*.png

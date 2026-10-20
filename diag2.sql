@@ -1,0 +1,1 @@
+SELECT trip_id, route_id, trip_headsign, headsign_clean FROM trips WHERE trip_id = 'b_268438460_12';

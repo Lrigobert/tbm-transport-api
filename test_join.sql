@@ -1,0 +1,1 @@
+SELECT rt.stop_id, rt.route_id, rt.vehicle_label AS rt_label, t.headsign_clean AS destination_propre FROM realtime_updates rt LEFT JOIN trips t ON t.trip_id = rt.trip_id WHERE rt.stop_id = '516' LIMIT 10;

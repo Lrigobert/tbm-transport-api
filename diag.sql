@@ -1,0 +1,1 @@
+SELECT rt.trip_id AS rt_trip, rt.route_id, (SELECT COUNT(*) FROM trips t WHERE t.trip_id = rt.trip_id) AS existe_dans_trips FROM realtime_updates rt WHERE rt.route_id IN ('503','504','505') LIMIT 5;
